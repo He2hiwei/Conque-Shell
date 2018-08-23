@@ -1044,7 +1044,7 @@ class Conque:
             # signal process that screen size has changed
             self.proc.window_resize(self.lines, self.columns)
 
-    "def insert_enter(self):
+    def insert_enter(self):
         """ Run commands when user enters insert mode. """
 
         # check window size
