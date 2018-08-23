@@ -1051,7 +1051,7 @@ class Conque:
         self.update_window_size()
 
         # we need to set the cursor position
-        self.cursor_set = False
+        self.cursor_set = True
 
     def init_tabstops(self):
         """ Intitialize terminal tabstop positions. """
