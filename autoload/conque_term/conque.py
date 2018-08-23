@@ -1051,6 +1051,7 @@ class Conque:
         self.update_window_size()
 
         # we need to set the cursor position
+        print("!!!")
         self.cursor_set = True
 
     def init_tabstops(self):
